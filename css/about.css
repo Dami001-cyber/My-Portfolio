@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding-top: 56px; /* Space for fixed navbar */
+    color: #001F3F; /* Dark blue text color */
+    background-color: #F4F4F4; /* Light gray background */
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFD700; /* Gold accent color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    color: #FFD700 !important; /* Gold accent for navbar */
+}
+.navbar-nav .nav-link {
+    color: #FFF !important;
+    margin: 0 10px;
+}
+.navbar-nav .nav-link:hover {
+    color: #FFD700 !important; /* Gold hover effect */
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 0;
+    background: linear-gradient(to right, #001F3F, #007BFF); /* Dark blue to light blue gradient */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-section .highlight {
+    color: #FFD700; /* Gold accent for highlighted text */
+}
+
+.about-section .about-photo {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    border: 4px solid #FFD700; /* Gold border around image */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 50px 0;
+    background-color: #F4F4F4; /* Light gray background */
+    text-align: center;
+    color: #001F3F; /* Dark text for readability */
+}
+
+.skills-section h2 {
+    font-size: 2.5rem;
+    color: #001F3F;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.skill-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill-icon {
+    font-size: 3rem;
+    color: #FFD700; /* Gold accent color */
+    margin-bottom: 20px;
+}
+
+.skill-item h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #001F3F;
+}
+
+.progress-bar {
+    width: 100%;
+    background: #DADADA;
+    border-radius: 5px;
+    height: 8px;
+    margin-top: 10px;
+}
+
+.progress {
+    height: 100%;
+    background: #FFD700;
+    border-radius: 5px;
+    transition: width 1s ease-in-out;
+}
+
+/* Make the skills section responsive */
+@media (max-width: 767px) {
+    .skills-section {
+        padding: 30px 15px;
+    }
+
+    .skill-item {
+        margin: 20px 0;
+    }
+
+    .skill-icon {
+        font-size: 2.5rem;
+    }
+
+    .skill-item h3 {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+/* Footer */
+.footer {
+    background: #001F3F;
+    font-size: 0.9rem;
+    color: white;
+}
+
+/* Social Icons */
+.footer .social-icons a {
+    margin: 0 15px;
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+.footer .social-icons a:hover {
+    color: #FFD700;
+}

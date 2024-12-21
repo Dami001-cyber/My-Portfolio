@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding-top: 56px; /* Space for fixed navbar */
+    color: #001F3F;
+    background-color: #f4f4f4;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    color: #FFD700 !important;
+}
+.navbar-nav .nav-link {
+    color: #FFF !important;
+    margin: 0 10px;
+}
+.navbar-nav .nav-link:hover {
+    color: #FFD700 !important;
+}
+
+
+/* Projects Section */
+.projects-section {
+    padding: 50px 0;
+    background: linear-gradient(to right, #001F3F, #007BFF);
+    text-align: center;
+}
+
+.projects-section h2 {
+    font-size: 2.5rem;
+    color: #001F3F;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.project-card {
+    background-color:#083e74;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-10px); /* Hover effect to elevate the card */
+}
+
+.project-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 4px solid #FFD700; /* Gold accent at the bottom of the image */
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h3 {
+    font-size: 1.8rem;
+    color: #001F3F;
+    margin-bottom: 15px;
+}
+
+.project-info p {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.btn-project {
+    padding: 10px 20px;
+    background-color: #001F3F;
+    color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-project:hover {
+    background-color: #FFD700;
+    color: #001F3F;
+}
+
+/* Responsive Layout */
+@media (max-width: 767px) {
+    .project-card {
+        margin: 20px 0;
+    }
+
+    .project-info h3 {
+        font-size: 1.5rem;
+    }
+
+    .btn-project {
+        font-size: 1rem;
+    }
+}
+
+
+/* Footer */
+.footer {
+    background: #001F3F;
+    font-size: 0.9rem;
+    color: #FFF;
+    padding: 15px 0;
+    text-align: center;
+}
+
